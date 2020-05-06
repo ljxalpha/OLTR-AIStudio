@@ -110,7 +110,7 @@ def job(model_type, f, train_set, test_set, tau, step_size, gamma, num_rankers, 
     FEATURE_SIZE = 46
     Learning_rate = 0.1
     NUM_INTERACTION = 10000
-    for r in range(1, 4):
+    for r in range(1, 26):
         # np.random.seed(r)
         ranker = COLTRLinearRanker(FEATURE_SIZE, Learning_rate, step_size, tau, gamma, learning_rate_decay=learning_rate_decay)
 
@@ -154,7 +154,7 @@ if __name__ == "__main__":
     step_size = 1
 
     # for 5 folds
-    for f in range(1, 2):
+    for f in range(1, 6):
 
         training_path = "{}/Fold{}/train.txt".format(dataset_fold, f)
         test_path = "{}/Fold{}/test.txt".format(dataset_fold, f)

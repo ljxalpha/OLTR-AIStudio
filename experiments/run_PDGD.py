@@ -84,8 +84,8 @@ if __name__ == "__main__":
 
     FEATURE_SIZE = 46
     NUM_INTERACTION = 10000
-    # click_models = ["informational", "navigational", "perfect"]
-    click_models = ["perfect"]
+    click_models = ["informational", "navigational", "perfect"]
+    # click_models = ["perfect"]
     Learning_rate = 0.1
     dataset_fold = "../datasets/2007_mq_dataset"
     output_fold = "mq2007"

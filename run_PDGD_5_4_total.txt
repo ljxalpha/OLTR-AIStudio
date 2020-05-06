@@ -1,0 +1,3 @@
+PDGD tau1 fold1 informational run1 start!
+PDGD tau1 fold1 perfect run1 start!
+PDGD tau1 fold1 navigational run1 start!
